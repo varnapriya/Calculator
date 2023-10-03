@@ -1,0 +1,45 @@
+<html lang="en" dir="ltr">
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Simple Calculator using HTML, CSS and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ <section>
+<div class="calculator" >
+  
+  <div class="row1">
+      <input colspan="3" class="display" type="text" id="result" />
+      <input class="clear"  value="AC" onclick="clearScreen()" id="btn" />  
+    </div>
+      <div class="GridFunction">
+    <div class="numbers"  onclick="display('9')" >9</div> 
+    <div class="numbers"  onclick="display('8')" >8</div> 
+     <div class="numbers"  onclick="display('7')" >7</div>
+     <div class="functions"  onclick="display('+')" >+</div>
+ 
+   <div  class="numbers" onclick="display('4')" >4</div> 
+     <div  class="numbers" onclick="display('5')" >5</div> 
+   <div  class="numbers" onclick="display('6')" >6</div>
+    <div class="functions" onclick="display('-')" >-</div>
+  
+   <div  class="numbers"  onclick="display('1')" >1</div> 
+     <div  class="numbers"  onclick="display('2')" >2</div> 
+     <div  class="numbers"  onclick="display('3')" >3</div> 
+     <div  class="functions" onclick="display('/')" >/</div> 
+
+   <div  class="numbers"  onclick="display('.')" >.</div> 
+   <div  class="numbers"  onclick="display('0')" >0</div> 
+     <div  class="numbers"  onclick="calculate()" id="btn" >=</div> 
+     <div  class="functions" onclick="display('*')" >*</div>
+  
+</div>
+</div>
+</section>
+<script type="text/javascript" src="source.js"></script>
+ 
+</body>
+ 
+</html>
