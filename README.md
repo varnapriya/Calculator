@@ -1,4 +1,4 @@
 # Calculator
 A simple Calculator Application for performing basic maths.
-technolohies used:
+Technologies used:
 HTML,CSS,javascript
